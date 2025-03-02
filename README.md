@@ -4,4 +4,4 @@ Monitoring deep brain activity is crucial for understanding neural circuit dysfu
 
 ![image](https://github.com/user-attachments/assets/81a0f0a4-c51e-4220-b8b6-bb1fcb7b9c45)
 
-We establish broad clinical utility through successful generalization across disease conditions (Parkinson's disease, dystonia, Tourette syndrome), subcortical targets (subthalamic nucleus, globus pallidus, centromedian thalamus), and behavioral states, while maintaining efficacy during stimulation artifacts and movement.
+This project aims to extract relevant information or features of STN (subthalamic nucleus) data using ECoG (electrocorticography) recordings. The extracted features can serve as potential diagnostic biomarkers or aid in treatment strategies.
