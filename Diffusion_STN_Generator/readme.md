@@ -1,4 +1,4 @@
-In this method, we attempt to generate ECoG data directly using a diffusion model, with STN data serving as the prompt. However, the results have not been satisfactory, and further development may be required.
+In this method, we attempt to generate STN data directly using a diffusion model, with ECoG data serving as the prompt. However, the results have not been satisfactory, and further development may be required.
 
 The dataset included here contains no private information and can be used for further research and development.
 
