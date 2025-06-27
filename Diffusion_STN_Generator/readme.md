@@ -2,7 +2,7 @@ In this method, we attempt to generate STN data directly using a diffusion model
 
 The dataset included here contains no private information and can be used for further research and development.
 
-The primary contributions in this subfolder were made by Zixuan Liu (zixuan_liu@tu-berlin.de).
+The primary contributions in this subfolder were made by Zixuan Liu (zixuan.liu2718@gmail.com).
 
 Special acknowledgement to Umar Jamil and Outlier for their tutorial video.
 
