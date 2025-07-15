@@ -39,7 +39,7 @@ Our approach has been validated on **723 hours of recordings from 49 patients**,
 
 ## Repository Structure
 
-<img width="1311" height="739" alt="image" src="https://github.com/user-attachments/assets/64cb2285-bfc7-4920-92dc-4119c7af85a8" />
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/64cb2285-bfc7-4920-92dc-4119c7af85a8" />
 
 ---
 
