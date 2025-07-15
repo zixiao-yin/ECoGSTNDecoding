@@ -39,7 +39,21 @@ Our approach has been validated on **723 hours of recordings from 49 patients**,
 
 ## Repository Structure
 
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/64cb2285-bfc7-4920-92dc-4119c7af85a8" />
+ECoGSTNDecoding/
+├── 1. CtxNet Implementation for Spectral Feature Modeling/
+│   ├── CtxNet Implementation - Architecture & Training & Validation Pipeline.ipynb
+│   ├── CtxNet Implementation - Learning Curve.ipynb
+│   └── CtxNet Implementation - Transfer Learning.ipynb
+│
+├── 2. DDPM Implementation for Raw Signal Reconstruction/
+│   ├── DDPM Implementation - Raw Signal Reconstruction.ipynb
+│   ├── DDPM Implementation - Batch Processing.ipynb
+│   ├── DDPM Implementation - Learning Curve.ipynb
+│   ├── DDPM Implementation - Training Base Model.ipynb
+│   └── DDPM Implementation - Transfer Learning.ipynb
+│
+├── Diffusion_STN_Generator/
+│   └── (Early experimental tests by Zixuan Liu; includes `npy_data_reso50hz`)
 
 ---
 
