@@ -58,22 +58,6 @@ Our approach has been validated on **723 hours of recordings from 49 patients**,
 
 ---
 
-## References
-
-This project builds on previous work in neural decoding and generative modeling:
-
-- Peterson SM, Steine-Hanson Z, Davis N, Rao RPN, Brunton BW.  
-  *Generalized neural decoders for transfer learning across participants and recording modalities.*  
-  J Neural Eng. 2021;18(2). [https://doi.org/10.1088/1741-2552/abda0b](https://doi.org/10.1088/1741-2552/abda0b)
-- https://github.com/BruntonUWBio/HTNet_generalized_decoding
-
-- Vetter J, Macke JH, Gao R.  
-  *Generating realistic neurophysiological time series with denoising diffusion probabilistic models.*  
-  Patterns. 2024;5(9). [https://doi.org/10.1016/j.patter.2024.101047](https://doi.org/10.1016/j.patter.2024.101047)
-- https://github.com/mackelab/neural_timeseries_diffusion
-
----
-
 ## Contact
 
 For questions, suggestions, or collaborations, please contact **zixiao_yin@ccmu.edu.cn** or open an issue on this repository.
