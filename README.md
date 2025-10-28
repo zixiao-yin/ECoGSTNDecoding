@@ -120,8 +120,7 @@ We provide a small demonstration dataset to test the software installation and b
 
 #### Step 1: Download Demo Data
 ```bash
-# Demo data will be made available at [provide link or instructions]
-# For now, use the example in the notebooks
+# Demo data is available at the dataset folder
 ```
 
 #### Step 2: Run Demo Notebooks
