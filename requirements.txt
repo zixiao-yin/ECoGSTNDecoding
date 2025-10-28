@@ -1,0 +1,35 @@
+# Python 3.10.18
+# ECoGSTNDecoding - System Requirements
+# Tested on Windows 10 with CUDA 12.6
+
+# Deep Learning Framework
+torch==2.8.0+cu126
+torchvision
+torchaudio
+
+# Numerical Computing
+numpy==2.1.2
+scipy==1.15.3
+pandas==2.3.1
+
+# Visualization
+matplotlib==3.10.5
+
+# Machine Learning
+scikit-learn==1.7.1
+
+# Neuroscience
+mne==1.10.1
+
+# Jupyter Notebooks
+jupyter==1.1.1
+notebook==7.4.5
+ipython==7.34.0
+
+# Utilities
+tqdm==4.67.1
+pillow==11.0.0
+
+# Additional recommended packages
+h5py>=3.8.0
+seaborn>=0.12.0
