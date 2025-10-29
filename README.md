@@ -120,7 +120,7 @@ We provide a small demonstration dataset to test the software installation and b
 
 #### Step 1: Download Demo Data
 ```bash
-# Demo data is available at the dataset folder
+# Demo data is available here at [10.6084/m9.figshare.30472508](https://figshare.com/articles/dataset/ecogstn_decoding_demo_dataset/30472508)
 ```
 
 #### Step 2: Run Demo Notebooks
@@ -129,8 +129,8 @@ We provide a small demonstration dataset to test the software installation and b
 jupyter notebook
 
 # Navigate to and open:
-# 1. "CtxNet Implementation - Architecture & Training & Validation Pipeline.ipynb"
-# 2. "DDPM Implementation - Raw Signal Reconstruction.ipynb"
+# 1. "CtxNet Implementation - demo.ipynb"
+# 2. "DDPM Implementation - demo.ipynb"
 ```
 
 #### Expected Output
@@ -138,8 +138,8 @@ jupyter notebook
 - **DDPM Demo**: Should generate reconstructed waveforms and comparison with ground truth
 
 #### Expected Runtime
-- **CtxNet Demo**: ~2-5 minutes on a GPU, ~15-30 minutes on CPU
-- **DDPM Demo**: ~5-10 minutes on a GPU, ~30-60 minutes on CPU
+- **CtxNet Demo**: ~20-30 minutes on a GPU
+- **DDPM Demo**: ~40-60 minutes on a GPU
 
 ---
 
@@ -151,7 +151,6 @@ jupyter notebook
 The software expects input data in the following format:
 - **ECoG signals**: NumPy array format (`.npy`) or MNE-Python Raw objects
 - **Shape**: `(n_channels, n_timepoints)` or `(n_epochs, n_channels, n_timepoints)`
-- **Sampling rate**: 50 Hz or higher (will be resampled if needed)
 - **Deep brain signals** (optional, for training): Same format as ECoG
 
 #### Step 1: Prepare Your Data
