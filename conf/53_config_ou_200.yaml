@@ -1,0 +1,47 @@
+# config.yaml
+base:
+  experiment: ecog_dbs_imputation
+  tag: baseline
+  wandb_mode: disabled
+  use_cuda_if_available: true
+  seed: 42
+
+dataset:
+  self: ecog_dbs
+  signal_length: 1000
+  train_test_split: 0.7
+  split_seed: 42
+
+network:
+  self: ada_conv
+  signal_channel: 1          # DBS channel
+  cond_dim: 3               # ECoG channels
+  hidden_channel: 128
+  in_kernel_size: 3
+  out_kernel_size: 3
+  slconv_kernel_size: 6     # For structured long convolutions
+  num_scales: 5             # Multiple scales for long-range dependencies
+  num_blocks: 4
+  num_off_diag: 2
+  use_pos_emb: true
+  padding_mode: circular    # Better for time series
+  use_fft_conv: true       # Efficient for long sequences
+
+diffusion:
+  diffusion_steps: 1000
+  schedule: quad
+  start_beta: 1e-4
+  end_beta: 0.02
+
+diffusion_kernel:
+  self: ou                  # Using OU process for 1/f noise
+  sigma_squared: 1.0
+  ell: 0.1                 # Length scale parameter
+
+optimizer:
+  num_epochs: 50
+  train_batch_size: 512
+  lr: 0.0001
+  weight_decay: 0.0
+  scheduler_milestones: [80, 90]
+  scheduler_gamma: 0.1
